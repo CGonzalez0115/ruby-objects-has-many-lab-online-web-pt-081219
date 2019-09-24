@@ -25,11 +25,7 @@ class Artist
   end
 
   def self.song_count
-<<<<<<< HEAD
     Song.all.count
-=======
-    @songs += 1
->>>>>>> 01bc2a41cf2f2520b3a577470d6efc9fefbe09f7
   end
 
 end
