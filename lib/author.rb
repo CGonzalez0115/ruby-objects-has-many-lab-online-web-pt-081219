@@ -23,11 +23,6 @@ class Author
   end
 
   def self.post_count
-<<<<<<< HEAD
     Post.all.count
-=======
-    new_array = self.split(/[.?!]/).reject {|string| string.empty?}
-    return new_array.length
->>>>>>> 01bc2a41cf2f2520b3a577470d6efc9fefbe09f7
   end
 end
